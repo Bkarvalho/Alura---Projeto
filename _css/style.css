@@ -1,0 +1,185 @@
+.btnMenu{
+    display: none;
+}
+
+body{
+    background-color: #dfdfdf;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.wrap-menu{
+    background-color: #338EA3;
+}
+
+.menu{
+    display: flex;
+    padding: 20px 0 20px 20px;
+}
+
+.menu-item{
+    color: #aef0ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;    
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu-item:hover{
+    box-shadow: 0 0 5px #024b5c;
+}
+
+.inicio{
+    background-color:#338EA3 ;
+}
+
+.inicio-conteudo{
+    display: flex;
+}
+
+.dados-pessoais{
+    width: 50%;
+    padding-top: 65px;
+    padding-left: 25px;
+    color: #012730;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nome{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.cargo{
+    font-size: 1.2em;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.dados-pessoais p{
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.foto-perfil{
+    width: 50%;
+    max-width: 320px;
+    border-radius: 180px;
+    border: 8px solid #024b5c;
+}
+
+.redes-sociais{
+    margin-left: 150px;
+}
+
+.redes-sociais img{
+    width: 40px;
+    margin: 15px;
+}
+
+.sobre-mim, .educacao, .experiencias, .habilidades, .interesses{
+    background-color: #e4eafc;
+    color: #012730;
+    padding: 10px 0 10px 0;
+}
+
+.sobre-mim p{
+    font-size: 1em;
+    color: #012730;
+    font-family: arial;
+    padding-left: 30px;
+}
+
+.sobre-mim img{
+    width: 50%;
+    max-width: 320px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.educacao div, .experiencias div, .sobre-mim div{
+    display: flex;
+    padding-top: 20px;
+}
+
+.educacao p, .experiencias p{
+    background-color: #338EA3;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+
+.titulo{
+    font-size: 2em;
+    text-align: center;
+    font-family: arial;
+}
+
+
+.rodape{
+    background-color: #338EA3;
+    text-align: center;
+    font-size: 1em;
+    color: #012730;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape img{
+    width: 30px;
+}
+
+.rodape p{
+    padding-bottom:  15px;
+}
+
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: #cacaca;
+        width: 100%;
+        margin: 0;
+    }
+    .btnMenu{
+        display: block;
+    }
+    .menu{
+        display:block;
+        padding: 0 0;
+    }
+    .menu-item{
+        font-size: 1em;
+        border-radius: 0;
+    }
+
+    .inicio-conteudo{
+        display: block;
+    }
+    .dados-pessoais, .foto-perfil{
+        width: 100%;
+    }
+
+    .dados-pessoais{
+        text-align: center;
+        font-size: 1em;
+    }
+    .foto-perfil{
+        margin-left: 25px;
+    }
+    .redes-sociais{
+        margin-left: 0;
+    }
+    .titulo{
+        font-size: 1em;
+    }
+
+    .educacao div, .experiencias div, .sobre-mim div{
+        display: block;
+    }
+    
+    .educacao p, .experiencias p{
+        width: 100%;
+    }
+    
+}

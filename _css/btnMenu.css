@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 480px){
+    .btnMenu{
+        display: block;
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        text-indent: -9999px;
+        padding: 20px 15px;
+        background-size: 40px;
+    }
+    
+    .btnMenu_open {
+        background-image: url(../_imagens/botao_menu.png);    
+    }
+    
+    .btnMenu_close{
+        background-color: #0b5566;
+        background-image: url(../_imagens/botao_fechar.png);
+    }    
+}
